@@ -2,7 +2,7 @@
 class Person
 {
     public $name;
-    public $age;
+    protected $age;
 
     /**
      * @return mixed
