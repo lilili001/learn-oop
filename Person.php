@@ -34,6 +34,6 @@ class Person
 }
 
 $jeffrey = new Person('jeffery');
-//$jeffrey->age = 30;
+//$jeffrey->age = 30; //如果age设为protected 则不能访问
 $jeffrey->setAge(30);
 var_dump($jeffrey->getAge());
